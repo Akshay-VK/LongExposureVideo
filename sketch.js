@@ -47,7 +47,7 @@ function draw() {
 function handle(f){
 	if(f.type=='video'){
 		background(0);
-		prev.backgroun(0);
+		prev.background(0);
 		cam=createVideo(f.data);
 		cam.volume(0);
 		cam.play();
