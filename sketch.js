@@ -52,7 +52,6 @@ function handle(f){
 		cam.volume(0);
 		cam.play();
 		cam.loop();
-		cam.size(windowWidth,windowHeight);
 		cam.hide();
 	}else{
 		cam==null;
