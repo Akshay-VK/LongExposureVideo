@@ -10,7 +10,7 @@ function preload(){
 
 function setup() {
 	// shaders require WEBGL mode to work
-	createCanvas(windowWidth, windowHeight, WEBGL);
+	createCanvas(800,600, WEBGL);
 	noStroke();
 	
 	let inp=createFileInput(handle);
@@ -26,7 +26,7 @@ function setup() {
 	  
 	cam.hide();*/
 	background(0);
-	prev=createGraphics(windowWidth,windowHeight);
+	prev=createGraphics(800,600);
 	prev.background(0);
 }
 
