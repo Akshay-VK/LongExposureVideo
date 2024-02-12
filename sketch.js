@@ -40,8 +40,10 @@ function draw() {
 	theShader.setUniform('tex1',prev);
 	
 	// rect gives us some geometry on the screen
-	rect(0,0,width,height);
-	prev.image(get(),0,0,windowWidth,windowHeight);
+	if(cam){
+		rect(0,0,width,height);
+		prev.image(get(),0,0,width,height);
+	}
 	  
 }
 function handle(f){
